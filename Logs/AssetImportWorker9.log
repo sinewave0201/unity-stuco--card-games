@@ -426,3 +426,191 @@ Memory consumption went from 141.9 MB to 137.7 MB.
 Total: 9.553900 ms (FindLiveObjects: 0.828300 ms CreateObjectMapping: 0.395300 ms MarkObjects: 5.916700 ms  DeleteObjects: 2.411800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.745 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-unity stuco
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (9ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6511 unused Assets / (8.3 MB). Loaded Objects now: 7222.
+Memory consumption went from 150.5 MB to 142.3 MB.
+Total: 8.171900 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.286500 ms MarkObjects: 3.432500 ms  DeleteObjects: 4.019700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5831.915850 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02.mat
+  artifactKey: Guid(e9cb1387be7fac94686232ae21d4cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02.mat using Guid(e9cb1387be7fac94686232ae21d4cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb6a5c73675f5c0bf0807d5d73e5b73') in 0.5768444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_09.mat
+  artifactKey: Guid(6f2c2f8451d2e6e4f93801ce9cbc6a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hair_09.mat using Guid(6f2c2f8451d2e6e4f93801ce9cbc6a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '492ed00d61901b3a19060ed8ac2debdb') in 0.0369014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00f_01_02bw.mat
+  artifactKey: Guid(bce03a53d1d4d7f46bbb74133815576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00f_01_02bw.mat using Guid(bce03a53d1d4d7f46bbb74133815576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81005ae66f15ae3f09600f3ab3fbcc60') in 0.0461602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_02.mat
+  artifactKey: Guid(c6ac201742a184d4db6f571bdb5c8abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_02.mat using Guid(c6ac201742a184d4db6f571bdb5c8abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '844a105af3c03131760303dbe217814b') in 0.0694958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_12.mat
+  artifactKey: Guid(a60b9ca8b22b324478f4ebebaab0e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hair_12.mat using Guid(a60b9ca8b22b324478f4ebebaab0e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0104344240ebc80d0f0c761ad99853dd') in 0.0206841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_03_01.mat
+  artifactKey: Guid(b15dec6484deaa644a499c72587660cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_03_01.mat using Guid(b15dec6484deaa644a499c72587660cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb14efd64b279dbb748c36407f5abcc6') in 0.0725105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_01.mat
+  artifactKey: Guid(ded10ab2c599f364686032caff8b08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_01.mat using Guid(ded10ab2c599f364686032caff8b08e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9608ed0578bc99fc4680b6ff3fe03bc') in 0.0457975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01m_02_01.mat
+  artifactKey: Guid(ee0adf8b2778d4d419ffae6d661dcc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01m_02_01.mat using Guid(ee0adf8b2778d4d419ffae6d661dcc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e38d1792123466bf7ff98a99bfb5246') in 0.0701956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat
+  artifactKey: Guid(449c892dcfb7f3a43a50b2a52522498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat using Guid(449c892dcfb7f3a43a50b2a52522498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3ccf19301ccd78313098ee8a8793560') in 0.0405544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shoe_01_00_01bw.mat
+  artifactKey: Guid(9194af86a8dcfcd48b324c12a82cf99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_shoe_01_00_01bw.mat using Guid(9194af86a8dcfcd48b324c12a82cf99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbb3bc764f1e8ad31dbaf25b76581901') in 0.0337747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02bw.mat
+  artifactKey: Guid(40f01e7f83c123f4db9c5f0243a209d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00m_01_02bw.mat using Guid(40f01e7f83c123f4db9c5f0243a209d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54886b57469ca75d67ba8fc286d5cc56') in 0.0344584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_05_01.mat
+  artifactKey: Guid(f193fd96b42fe7547a50e7a7d280e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_05_01.mat using Guid(f193fd96b42fe7547a50e7a7d280e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7f9d05631cc9e005f58889c24dd260') in 0.0642914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_10.mat
+  artifactKey: Guid(7187b14939a19e9468d8f364e1dd985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hair_10.mat using Guid(7187b14939a19e9468d8f364e1dd985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30d6177ac2508f642f3072a165bb281') in 0.0198494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_01bw.mat
+  artifactKey: Guid(42e1c4e568819f94295a93832ab4233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_01bw.mat using Guid(42e1c4e568819f94295a93832ab4233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f237b3889f5b0fae0ad69898c79a644') in 0.0322659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_08.mat
+  artifactKey: Guid(d372b3dc14eb8f548978e806a9d5056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hair_08.mat using Guid(d372b3dc14eb8f548978e806a9d5056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee3b48626d8367f9e08535357b017029') in 0.0239673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/npc_casual_set_00/Materials/mtl_npc_hair_02.mat
+  artifactKey: Guid(612df7d55f5d0a548a224d39ac2c9bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc_casual_set_00/Materials/mtl_npc_hair_02.mat using Guid(612df7d55f5d0a548a224d39ac2c9bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f78cfe089741f600c66823aa5dc487') in 0.0199263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
