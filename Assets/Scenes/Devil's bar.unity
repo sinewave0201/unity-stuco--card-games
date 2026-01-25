@@ -9487,6 +9487,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 234d18a4-2f3f-4713-8763-1a4cd9275329
     m_ActionName: 'Capsule/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037824749}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: Look
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 45e90431-6d75-4d10-8976-05e61324572a
+    m_ActionName: 'Capsule/Look[/Mouse/delta]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Capsule
@@ -9509,8 +9525,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  rb: {fileID: 0}
-  isGrounded: 1
+  mouseSensitivity: 10
 --- !u!54 &2037824750
 Rigidbody:
   m_ObjectHideFlags: 0

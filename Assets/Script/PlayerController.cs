@@ -2,18 +2,19 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
-{   [SerializeField]
+{   [Header("movement")]
     public float speed = 5f;
     public float jumpForce = 5f;
     private float jumpCooldown = 0.5f;
     private float lastJumpTime;
     public LayerMask groundLayer;
 
-    [SerializeField]
-    private Rigidbody rb;
-    private Vector2 input;
+    [Header("rotation")]
+    public float mouseSensitivity = 10f;
 
-    [SerializeField]
+    private Rigidbody rb;
+    private Vector2 moveInput;
+    private Vector2 lookInput;
     private bool isGrounded = true;
 
     void Start()
@@ -59,14 +60,22 @@ public class PlayerController : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        input = context.ReadValue<Vector2>();
-        Debug.Log("Move: " + input);
+        moveInput = context.ReadValue<Vector2>();
+    }
+
+    public void Look(InputAction.CallbackContext context)
+    {
+        lookInput = context.ReadValue<Vector2>();
     }
 
     void FixedUpdate()
     {
-        Vector3 Force = new Vector3(input.x, 0, input.y);
-        Force *= speed;
-        rb.AddForce(Force);
+        //rotate movement
+        float rotateAmount = lookInput.x * mouseSensitivity * Time.deltaTime;
+        transform.Rotate(Vector3.up * rotateAmount);
+
+        //move
+        Vector3 moveDirection = transform.right * moveInput.x + transform.forward * moveInput.y;
+        rb.AddForce(moveDirection * speed);
     }
 }
