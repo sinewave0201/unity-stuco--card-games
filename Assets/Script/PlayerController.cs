@@ -17,6 +17,11 @@ public class PlayerController : MonoBehaviour
     private Vector2 lookInput;
     private bool isGrounded = true;
 
+    [Header("NPC reaction")]
+    public DialogueManager diagManager;
+    public GameObject fPrompt; // “按F”的提示字
+    private NPCData targetNPC;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -25,6 +30,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         groundCheck();
+        if (targetNPC != null && Keyboard.current.fKey.wasPressedThisFrame) {
+            diagManager.StartConversation(targetNPC);
+            fPrompt.SetActive(false);
+        }
     }
 
     void groundCheck()
@@ -78,4 +87,19 @@ public class PlayerController : MonoBehaviour
         Vector3 moveDirection = transform.right * moveInput.x + transform.forward * moveInput.y;
         rb.AddForce(moveDirection * speed);
     }
+
+void OnTriggerEnter(Collider other) {
+    if (other.TryGetComponent<NPCData>(out NPCData info)) {
+        targetNPC = info;
+        fPrompt.SetActive(true); // 靠近 NPC，显示“按F对话”
+    }
+}
+
+void OnTriggerExit(Collider other) {
+    if (other.GetComponent<NPCData>()) {
+        targetNPC = null;
+        fPrompt.SetActive(false);
+        diagManager.EndConversation();
+    }
+}
 }
