@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour
 
     public void Look(InputAction.CallbackContext context)
     {
+        Debug.Log("move: {moveInput}");
         lookInput = context.ReadValue<Vector2>();
     }
 

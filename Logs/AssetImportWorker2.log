@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16077 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp" at "2026-02-11T00:14:40.0107964Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp" at "2026-02-14T20:10:01.6182268Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-11T00:14:40Z
+Date: 2026-02-14T20:10:01Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.10f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ E:/games/unity/unity stuco
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54347
+50785
 -licensingIpc
 LicenseClient-hp
 -job-worker-count
@@ -65,30 +65,30 @@ E:/games/unity/unity stuco
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26840]  Target information:
+Player connection [55480]  Target information:
 
-Player connection [26840]  * "[IP] 26.16.34.112 [Port] 0 [Flags] 2 [Guid] 215916014 [EditorId] 215916014 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [55480]  * "[IP] 26.16.34.112 [Port] 0 [Flags] 2 [Guid] 4194182710 [EditorId] 4194182710 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26840]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 215916014 [EditorId] 215916014 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [55480]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 4194182710 [EditorId] 4194182710 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26840]  * "[IP] 172.26.112.45 [Port] 0 [Flags] 2 [Guid] 215916014 [EditorId] 215916014 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [55480]  * "[IP] 10.0.0.176 [Port] 0 [Flags] 2 [Guid] 4194182710 [EditorId] 4194182710 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26840] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [55480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [55480] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6920, path: "D:/program files/unity hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36084, path: "D:/program files/unity hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              3fa54a912b884618a677e0ed2b33e791
-  Correlation Id:          9295a6df7d6106f240708e878ef800f3
-  External correlation Id: 6402163902427022444
+  Session Id:              29a46d94e9954951bdfc147833698b79
+  Correlation Id:          132ee59fe1a015aec56075d9abc95a13
+  External correlation Id: 7678694779301952352
   Machine Id:              oJYw/SjKF5VKeIElphCQc4K/MVg=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hp" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp-notifications" at "2026-02-11T00:14:40.0543411Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp-notifications" at "2026-02-14T20:10:01.6562488Z"
 [Licensing::Module] Licensing Background thread has ended after 0.04s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -97,7 +97,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.10f1 (d3d30d158480)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
@@ -113,45 +113,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001544 seconds.
-- Loaded All Assemblies, in  0.325 seconds
+Registered in 0.002046 seconds.
+- Loaded All Assemblies, in  0.455 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 621ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (175ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (153ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
+	FinalizeReload (387ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
+		SetupLoadedEditorAssemblies (342ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
+			InitializePlatformSupportModulesInManaged (62ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -169,11 +169,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.678 seconds
+- Loaded All Assemblies, in  0.960 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -188,210 +188,415 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-unity stuco
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.805 seconds
-Domain Reload Profiling: 1481ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.972 seconds
+Domain Reload Profiling: 1926ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (442ms)
-		LoadAssemblies (318ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (465ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (141ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (806ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (222ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (972ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (615ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7001 unused Assets / (6.3 MB). Loaded Objects now: 7738.
-Memory consumption went from 146.3 MB to 140.1 MB.
-Total: 12.655000 ms (FindLiveObjects: 1.564100 ms CreateObjectMapping: 0.745900 ms MarkObjects: 6.332000 ms  DeleteObjects: 4.011200 ms)
+Unloading 7103 unused Assets / (5.9 MB). Loaded Objects now: 7858.
+Memory consumption went from 152.1 MB to 146.2 MB.
+Total: 19.728900 ms (FindLiveObjects: 2.069200 ms CreateObjectMapping: 0.980500 ms MarkObjects: 10.183800 ms  DeleteObjects: 6.492700 ms)
 
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6994 unused Assets / (5.9 MB). Loaded Objects now: 7739.
-Memory consumption went from 144.2 MB to 138.2 MB.
-Total: 9.708700 ms (FindLiveObjects: 0.687300 ms CreateObjectMapping: 0.767400 ms MarkObjects: 5.351800 ms  DeleteObjects: 2.899900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 20037.736251 seconds.
-  path: Assets/Script/NPCdata.cs
-  artifactKey: Guid(c66d9bcbfd4622549b2737e2b8d70d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/NPCdata.cs using Guid(c66d9bcbfd4622549b2737e2b8d70d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a96fb1487f8a11e2a6bba61fb5ded4b') in 0.0170672 seconds
+  Time since last request: 187610.873847 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo
+  artifactKey: Guid(362da451f1e15cc45835d94c376a9e2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo using Guid(362da451f1e15cc45835d94c376a9e2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecf8d60e6c7c49a645c435d3a3363fe5') in 0.2591555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/Demo Main.unity
+  artifactKey: Guid(730604ba45a5f524591e815d51182b47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/Demo Main.unity using Guid(730604ba45a5f524591e815d51182b47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c67e3150ea8e817f4d20864cc9900667') in 0.0309898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Shaders/shape.hlsl
+  artifactKey: Guid(78489dcd28454fcdbad4ae78589e433c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Shaders/shape.hlsl using Guid(78489dcd28454fcdbad4ae78589e433c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f8a56152e638619d38fad7943e771c') in 0.0324979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Prefabs/Demo_Main_Control.prefab
+  artifactKey: Guid(72cca47643533904a8fd6599c6a74cc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Prefabs/Demo_Main_Control.prefab using Guid(72cca47643533904a8fd6599c6a74cc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eaac5c6184e3be2f1f6e8a344b4efc6') in 0.1459818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold/Runtime/ParaformConfig.cs
+  artifactKey: Guid(28e4120e4fcac5c4287818023a1bcae4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold/Runtime/ParaformConfig.cs using Guid(28e4120e4fcac5c4287818023a1bcae4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80636ed1f1c4d4d4bf1026305c87b696') in 0.0128413 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.806410 seconds.
-  path: Assets/Scenes/Devil's bar.unity
-  artifactKey: Guid(907aaf2cf4130a64bbfea8d962b292a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Devil's bar.unity using Guid(907aaf2cf4130a64bbfea8d962b292a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4032b78ba466963bd7b2e2629cf08a63') in 0.1504335 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/00_Scenes/See also Scenes in render pipeline specific folders
+  artifactKey: Guid(e3d4f67f5d777f74c9a5d8b4e23bff48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/00_Scenes/See also Scenes in render pipeline specific folders using Guid(e3d4f67f5d777f74c9a5d8b4e23bff48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d750f9e0b253845b34f4be43e1446be') in 0.018172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts
+  artifactKey: Guid(ce7c18c364fd70c4890299c81f23c3c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts using Guid(ce7c18c364fd70c4890299c81f23c3c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '752e5c45c3ca1e1a0e93a61e81d3f094') in 0.0158742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts/DemoControllerPresets.cs
+  artifactKey: Guid(7a7df03b025047b6be95bc0877a64347) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts/DemoControllerPresets.cs using Guid(7a7df03b025047b6be95bc0877a64347) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61f96243ab28b4c8338e7c52e591a193') in 0.0190433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(445e23cf0dd1033489be32961b9389c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Black.ttf using Guid(445e23cf0dd1033489be32961b9389c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2488e7a11254be2b6712a2408afad5c') in 0.0808737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/ActiveRegion.cs
+  artifactKey: Guid(4adf6e4aab6f4d09ad8edf1d91e8fd9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/ActiveRegion.cs using Guid(4adf6e4aab6f4d09ad8edf1d91e8fd9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c780a2d09a78050b6f194b56b4f495a2') in 0.0211807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2darts/lucien.psd
+  artifactKey: Guid(cfebb9ca149ae174eabbf4ea47abc5e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2darts/lucien.psd using Guid(cfebb9ca149ae174eabbf4ea47abc5e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5300f087c0e79a44079e51875b42eaee') in 0.0806587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Material
+  artifactKey: Guid(c5dfb59d71f85d641af9a09064cd6222) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Material using Guid(c5dfb59d71f85d641af9a09064cd6222) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c25f3946e97eea68ac1e7aa99bd05bb4') in 0.018156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Prefabs/Demo_UI Blur_Canvases.prefab
+  artifactKey: Guid(064edb518b7b9544da2ac78bab27d7ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Prefabs/Demo_UI Blur_Canvases.prefab using Guid(064edb518b7b9544da2ac78bab27d7ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '638d8c092ee6ac9f77974a86494fa1c2') in 0.0990811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Le Tai's Asset/Common/Editor/SpringPropertyDrawer.cs
+  artifactKey: Guid(03b5046c644a48e8a2078a44033e85d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/Common/Editor/SpringPropertyDrawer.cs using Guid(03b5046c644a48e8a2078a44033e85d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4567703cf5427be4cb03da0f752b23f0') in 0.019755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-ThinItalic.ttf
+  artifactKey: Guid(5b04b324441621a45b736b0ba62c543a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-ThinItalic.ttf using Guid(5b04b324441621a45b736b0ba62c543a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71de263449090533e60f61f44eb9e4b8') in 0.0347386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/Demo UI Blur.unity
+  artifactKey: Guid(bff905f87bb8ab4478fe106ba7989228) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/Demo UI Blur.unity using Guid(bff905f87bb8ab4478fe106ba7989228) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edd6942d021002dc56411fa9255e5e53') in 0.0253908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold
+  artifactKey: Guid(5a6b360fd65c8a7498e21776f5e921f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold using Guid(5a6b360fd65c8a7498e21776f5e921f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '108e428f1a4a14a41c695941c937a47d') in 0.0182677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Shaders
+  artifactKey: Guid(300bd53c62644483867dd2a360050ce4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Shaders using Guid(300bd53c62644483867dd2a360050ce4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9bddbb2433c872bc324196efb990f74') in 0.0221527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/See also Scenes in the top level Demo folder
+  artifactKey: Guid(d1ea1ae7048ce2348b8873c4a0a5f9c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/00_Scenes/See also Scenes in the top level Demo folder using Guid(d1ea1ae7048ce2348b8873c4a0a5f9c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4dfbe94bb43d9d14025f6db457348907') in 0.0163324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Shaders/paraform.hlsl
+  artifactKey: Guid(35868cf233384b47b48ed46245e85c6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Shaders/paraform.hlsl using Guid(35868cf233384b47b48ed46245e85c6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78e97073ddd61fd1ace61152a66caee9') in 0.032242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts
+  artifactKey: Guid(82aff0227c407314f883a18954b5edd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts using Guid(82aff0227c407314f883a18954b5edd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0edb63d555e21f894e2ba8d0ef614f23') in 0.0193652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Configs/Overlay Blur Config.asset
+  artifactKey: Guid(69c0b043f5fbad145968b75eb6b8d463) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Configs/Overlay Blur Config.asset using Guid(69c0b043f5fbad145968b75eb6b8d463) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4950a972cc38e0bbaca784a91b81496') in 0.0482424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/Editor/ScenceGizmoAutoDisable.cs
+  artifactKey: Guid(d3c5df780c45454e820502d48a07db97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/Editor/ScenceGizmoAutoDisable.cs using Guid(d3c5df780c45454e820502d48a07db97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b538ab6f647138ffaeb53cdd7fa0c265') in 0.0188983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources
+  artifactKey: Guid(ace044fc6a6bf3649a39e77c7a77f6c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources using Guid(ace044fc6a6bf3649a39e77c7a77f6c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66710f63f00021b31e217dc7830e4984') in 0.0142856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Medium.ttf
+  artifactKey: Guid(2b2b88cd7d3f82b459e9207b16dda7d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Medium.ttf using Guid(2b2b88cd7d3f82b459e9207b16dda7d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c4a0599f8c44ac1c9eea0193f72a394') in 0.0359595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/BlurAlgorithm/BlurConfig.cs
+  artifactKey: Guid(5a1c97a4c20d4c698acd8a00210f69fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/BlurAlgorithm/BlurConfig.cs using Guid(5a1c97a4c20d4c698acd8a00210f69fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2591a981fd957d59e88373babb481fd4') in 0.0234987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Regular.ttf
+  artifactKey: Guid(ff4fa950810656f4cac5ce20de558817) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Fonts/Roboto-Regular.ttf using Guid(ff4fa950810656f4cac5ce20de558817) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c42edfcb60144d85ec48ee3b86b95af') in 0.0367953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/LeTai.TranslucentImage.Demo.asmdef
+  artifactKey: Guid(3f4122c32873e8c43b4fee7cb4e3ccff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/LeTai.TranslucentImage.Demo.asmdef using Guid(3f4122c32873e8c43b4fee7cb4e3ccff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '924e423843f8660e46f807d5630703f5') in 0.0326058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Textures/Example Photo/mountain.png
+  artifactKey: Guid(6cc2ee7b3d11391439dd5a06d85daa22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Textures/Example Photo/mountain.png using Guid(6cc2ee7b3d11391439dd5a06d85daa22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '077aec603f25b6147139c77fb9734e20') in 0.0398588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources/round_corner_br.png
+  artifactKey: Guid(e984439ef57f3a64399fa255d7c4ba16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources/round_corner_br.png using Guid(e984439ef57f3a64399fa255d7c4ba16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7c9a469c4716ca94d0c7c8b5ee7be6d') in 0.0341971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources/TranslucentImage Icon.png
+  artifactKey: Guid(0764cd30e065b7340891d9f7f680a12f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/Editor/Resources/TranslucentImage Icon.png using Guid(0764cd30e065b7340891d9f7f680a12f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1623532c5b6e4f71d216b7900ba3b5b5') in 0.0290544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/AutoMoveAndRotate.cs
+  artifactKey: Guid(a1347817507220a4384f3ff6f7c24546) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/AutoMoveAndRotate.cs using Guid(a1347817507220a4384f3ff6f7c24546) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '602b14f8e12beba272132036be909382') in 0.021014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Le Tai's Asset/Common/Editor/LeTai.Common.Editor.asmdef
+  artifactKey: Guid(6329229812871a6488deb623f659955b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/Common/Editor/LeTai.Common.Editor.asmdef using Guid(6329229812871a6488deb623f659955b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db4ab26b9f1b3c0a1a22b1f0ecbe9a44') in 0.0318264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Devil's bar Transluscent Blur Config.asset
+  artifactKey: Guid(cac201e738810f04fab1bde6cfaaf4e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Devil's bar Transluscent Blur Config.asset using Guid(cac201e738810f04fab1bde6cfaaf4e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f14d936656ee59229f9c2ae11941559') in 0.0208915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2darts/Farrum.psd
+  artifactKey: Guid(9f8d03467d0b91c4895d702c660bb4b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2darts/Farrum.psd using Guid(9f8d03467d0b91c4895d702c660bb4b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04998f6b6223afd844623710c41fbf7f') in 0.0456136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Materials
+  artifactKey: Guid(cb7e609c9b13a8244bc1f84633972323) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Materials using Guid(cb7e609c9b13a8244bc1f84633972323) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da468213fe09a4f6bed23c0726221f03') in 0.0164747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/Editor
+  artifactKey: Guid(1ffad624d21be844dbf9ce8159d864d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/Editor using Guid(1ffad624d21be844dbf9ce8159d864d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d69ced84b13f5e6aac56624bc63698b') in 0.0191621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Materials/Paraform_Demo_Opaque.mat
+  artifactKey: Guid(32a35e246ce9ffd4682e0cdd84891333) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Materials/Paraform_Demo_Opaque.mat using Guid(32a35e246ce9ffd4682e0cdd84891333) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f77896ae28a0c408dd69c8cae45b2cd') in 0.0566769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/URP README.txt
+  artifactKey: Guid(b12c9ba0e5d5cab45a39404b57693e5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/URP README.txt using Guid(b12c9ba0e5d5cab45a39404b57693e5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bafcc157df18ceca28083785e69c5235') in 0.0276932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage
+  artifactKey: Guid(f7d17cc01badd084cb6b9f7806e16fc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage using Guid(f7d17cc01badd084cb6b9f7806e16fc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61e75172b3b0a7540f3514728d46ee60') in 0.0188372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold/Runtime
+  artifactKey: Guid(a9f3ce8eaf55a4a468c9ab96d21add88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Script/ParaformScaffold/Runtime using Guid(a9f3ce8eaf55a4a468c9ab96d21add88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9f0fdeb622d59d0a2c36b7eb5fae191') in 0.0168642 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/2darts/lucien.png
-  artifactKey: Guid(e4dd9983d214900489cdd22af811361b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/2darts/lucien.png using Guid(e4dd9983d214900489cdd22af811361b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c2f6da0e2cf25fc761aea489179a3a0') in 0.0820602 seconds
+  path: Assets/Le Tai's Asset/Common/Editor/EditorProperty.cs
+  artifactKey: Guid(a6efd34a11308a746bf9a43556eb283b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/Common/Editor/EditorProperty.cs using Guid(a6efd34a11308a746bf9a43556eb283b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0968688d004f3b5680aac63924a1c5e') in 0.0151236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/ColorSchemeManager.cs
+  artifactKey: Guid(599504881c0a2e640bec3d873e2d2deb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/zz_Common/Scripts/ColorSchemeManager.cs using Guid(599504881c0a2e640bec3d873e2d2deb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc79153d66426054aca08e648cbcdf83') in 0.0201323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/Materials/TI_Demo_BiRP_Diffuse_Floor.mat
+  artifactKey: Guid(8099364d5dd8047418473f6849967340) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImage/Demo/BiRP/Materials/TI_Demo_BiRP_Diffuse_Floor.mat using Guid(8099364d5dd8047418473f6849967340) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13600c49c3df27ff032ac6480140c995') in 0.0196945 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.626 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.694 seconds
-Domain Reload Profiling: 1323ms
-	BeginReloadAssembly (202ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (288ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (139ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (695ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (552ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7000 unused Assets / (6.1 MB). Loaded Objects now: 7757.
-Memory consumption went from 153.7 MB to 147.7 MB.
-Total: 10.191800 ms (FindLiveObjects: 0.697100 ms CreateObjectMapping: 0.628300 ms MarkObjects: 5.928600 ms  DeleteObjects: 2.936100 ms)
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts/DemoControllerFloater.cs
+  artifactKey: Guid(d86a40b98ff847efbf52cb0eee846ec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/TranslucentImageParaform/Demo/Scripts/DemoControllerFloater.cs using Guid(d86a40b98ff847efbf52cb0eee846ec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce03c9994332bb2e8e64e399d31764be') in 0.0185385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.698 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.727 seconds
-Domain Reload Profiling: 1426ms
-	BeginReloadAssembly (228ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (401ms)
-		LoadAssemblies (330ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (153ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (728ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7000 unused Assets / (6.5 MB). Loaded Objects now: 7760.
-Memory consumption went from 153.7 MB to 147.2 MB.
-Total: 12.929400 ms (FindLiveObjects: 0.807400 ms CreateObjectMapping: 0.915000 ms MarkObjects: 6.446200 ms  DeleteObjects: 4.758800 ms)
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Le Tai's Asset/Common/Runtime/TinyTween.cs
+  artifactKey: Guid(ab81ce18ae98496393c4e9021cd90940) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Le Tai's Asset/Common/Runtime/TinyTween.cs using Guid(ab81ce18ae98496393c4e9021cd90940) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1042d72cb5e5aafe7655d646710cbc74') in 0.0184542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
