@@ -22,14 +22,25 @@ public class PlayerController : MonoBehaviour
     public GameObject fPrompt; // “按F”的提示字
     private NPCData targetNPC;
 
+    [Header("animation")]
+    private Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         groundCheck();
+
+        //check moving and jumping
+        bool moving = moveInput.magnitude > 0.2f;
+        anim.SetBool("isWalking", moving);
+        anim.SetBool("isJumping", !isGrounded);
+        
+        //Check if the player pressed F here
         if (targetNPC != null && Keyboard.current.fKey.wasPressedThisFrame) {
             diagManager.StartConversation(targetNPC);
             fPrompt.SetActive(false);
@@ -70,6 +81,7 @@ public class PlayerController : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+        
     }
 
     public void Look(InputAction.CallbackContext context)
