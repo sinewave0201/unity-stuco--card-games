@@ -1,0 +1,1186 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-24T18:38:09Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp" at "2026-02-24T18:38:09.425505Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/games/unity/unity stuco
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+62211
+-licensingIpc
+LicenseClient-hp
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/games/unity/unity stuco
+E:/games/unity/unity stuco
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [84944]  Target information:
+
+Player connection [84944]  * "[IP] 26.16.34.112 [Port] 0 [Flags] 2 [Guid] 3201057976 [EditorId] 3201057976 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [84944]  * "[IP] 169.254.83.107 [Port] 0 [Flags] 2 [Guid] 3201057976 [EditorId] 3201057976 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [84944]  * "[IP] 172.26.59.147 [Port] 0 [Flags] 2 [Guid] 3201057976 [EditorId] 3201057976 [Version] 1048832 [Id] WindowsEditor(7,Sine-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [84944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [84944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67024, path: "D:/program files/unity hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              46e2a92c4d8d4ad6b026716586bc52fd
+  Correlation Id:          56af4512f43596d0edaf0366dd657768
+  External correlation Id: 7963475249741183504
+  Machine Id:              oJYw/SjKF5VKeIElphCQc4K/MVg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hp" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hp-notifications" at "2026-02-24T18:38:09.4683977Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 333.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.10f1 (d3d30d158480)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/games/unity/unity stuco/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001468 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.310 seconds
+Domain Reload Profiling: 627ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475887581673-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.653 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-unity stuco
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (683ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7090 unused Assets / (7.3 MB). Loaded Objects now: 7841.
+Memory consumption went from 151.8 MB to 144.4 MB.
+Total: 13.389100 ms (FindLiveObjects: 0.739700 ms CreateObjectMapping: 0.557500 ms MarkObjects: 7.714300 ms  DeleteObjects: 4.375800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 333021.777588 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_05_01.mat
+  artifactKey: Guid(f193fd96b42fe7547a50e7a7d280e9f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_05_01.mat using Guid(f193fd96b42fe7547a50e7a7d280e9f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adbb401cdfa88e5dcd0f27984b04fb69') in 0.3295081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_body_01f_01_01.mat
+  artifactKey: Guid(60fabb37e45849045a4f45d295d77670) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hmn_body_01f_01_01.mat using Guid(60fabb37e45849045a4f45d295d77670) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f2a862f21cd75eb93c07cb8a4029877') in 0.0424243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_02.mat
+  artifactKey: Guid(c6ac201742a184d4db6f571bdb5c8abd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_tshirt_00m_01_02.mat using Guid(c6ac201742a184d4db6f571bdb5c8abd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6cf98ccc1e5c4744384e5a767f99a02') in 0.036446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Pipelines
+  artifactKey: Guid(3d103445eaad39f42875b245811e8e38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Pipelines using Guid(3d103445eaad39f42875b245811e8e38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8096dacf02309f3aa30f743c43811c5e') in 0.0126519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody4.prefab
+  artifactKey: Guid(b5151af02a3c91f45ad1f47b1edc0722) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody4.prefab using Guid(b5151af02a3c91f45ad1f47b1edc0722) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b4fdceaf8567ddc38770dff5e3c30ee') in 0.0716407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models
+  artifactKey: Guid(b1e2e42254982244fbbc44b75d79094d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models using Guid(b1e2e42254982244fbbc44b75d79094d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cab1aa1a065d9fc186c2f5fd83674ee5') in 0.0174292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody2.prefab
+  artifactKey: Guid(7c4db68364110444daee01009088d2c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody2.prefab using Guid(7c4db68364110444daee01009088d2c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fb7b7c5d867864ca4ac92e5142d928d') in 0.0455171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_upperbody4.fbx
+  artifactKey: Guid(dbd47671905a32148aec3885be7f3146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_upperbody4.fbx using Guid(dbd47671905a32148aec3885be7f3146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '764ce1bad7455f96a4c346912ecfaad3') in 0.0524029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00m_sleeves.prefab
+  artifactKey: Guid(1ba8a0970c788b04ca26d68ccdf0108c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00m_sleeves.prefab using Guid(1ba8a0970c788b04ca26d68ccdf0108c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9255d9d154499a4cf331b3e2b66b565b') in 0.0599438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_tshirt_00f_torso.prefab
+  artifactKey: Guid(db61a297e075bf74183625e11b7ed82c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_tshirt_00f_torso.prefab using Guid(db61a297e075bf74183625e11b7ed82c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '100d98cc9d96d11f9c7b8b4eac775402') in 0.0260321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_o.tif
+  artifactKey: Guid(37a2b948bd4663e49a858ab84b2dc388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_o.tif using Guid(37a2b948bd4663e49a858ab84b2dc388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbd4e52aa1275aa209350c311e93c956') in 0.045519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_c.tif
+  artifactKey: Guid(83d9d4b704ed521488a8170471f5afa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_01_c.tif using Guid(83d9d4b704ed521488a8170471f5afa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b644269e2d3d2e5b1eef1388bdb0568') in 0.0248937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_n.tif
+  artifactKey: Guid(054c1b97af3b9624bb051e702d934d85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_n.tif using Guid(054c1b97af3b9624bb051e702d934d85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1e4f5bf959af088f04de6789e31b91a') in 0.0259283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shirtopenrolled_00f_01_01bw.mat
+  artifactKey: Guid(c4d0d4f742513f44db74347403e088ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shirtopenrolled_00f_01_01bw.mat using Guid(c4d0d4f742513f44db74347403e088ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04a8c8d964d954938d55fe9ffe194a8f') in 0.0384788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01f_01_01_n.tif
+  artifactKey: Guid(742937975a0512143872e34a3129a006) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01f_01_01_n.tif using Guid(742937975a0512143872e34a3129a006) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e90f3e16344c05bff0a68288cc93df78') in 0.0204447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00f_01_02_c.tif
+  artifactKey: Guid(aa4fc7a85c675fb48a20039c91ac4a99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_csl_shirtopenrolled_00f_01_02_c.tif using Guid(aa4fc7a85c675fb48a20039c91ac4a99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e3013dea4898ab13f1bfb8364a89b74') in 0.0339428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_fingers1.prefab
+  artifactKey: Guid(150d2e20662c6884ab58c9b658f71a79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_fingers1.prefab using Guid(150d2e20662c6884ab58c9b658f71a79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '727d7f223d561e82166b7f2f38881361') in 0.044812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 275
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_hair_09.mat
+  artifactKey: Guid(6f2c2f8451d2e6e4f93801ce9cbc6a34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_hair_09.mat using Guid(6f2c2f8451d2e6e4f93801ce9cbc6a34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a066284910d86ca22b608725bdeb469') in 0.0169931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_upperbody1.fbx
+  artifactKey: Guid(e625e84a51866a944a805065a483f0ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_upperbody1.fbx using Guid(e625e84a51866a944a805065a483f0ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae993ee02c218e42c3e259d862aa1c44') in 0.0297521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody6.prefab
+  artifactKey: Guid(4a2c8799edf87a34691aad8e096fed00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody6.prefab using Guid(4a2c8799edf87a34691aad8e096fed00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55a7abe848977a8a66f7d44bf6e01f17') in 0.028829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_11.mat
+  artifactKey: Guid(100ff61aedaccae46b745d57ee15b664) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_11.mat using Guid(100ff61aedaccae46b745d57ee15b664) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6357c5473119fb0015d176764f57e4af') in 0.0297754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shoe_01_00_01.mat
+  artifactKey: Guid(491163d8d3bd6d34eb019183ae6c638c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shoe_01_00_01.mat using Guid(491163d8d3bd6d34eb019183ae6c638c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a737200e5ab943746956a32b07aa8a4') in 0.0477143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_fingers2.prefab
+  artifactKey: Guid(9e5b758aa11364045919755d71996065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_fingers2.prefab using Guid(9e5b758aa11364045919755d71996065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dca252ae378eab654dc098aa00769c5') in 0.0239777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 275
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_hairfacial_c_01.fbx
+  artifactKey: Guid(3aa2fd2aebfbc154ea4921d0f4eaceba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_hairfacial_c_01.fbx using Guid(3aa2fd2aebfbc154ea4921d0f4eaceba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d0775c4dcf61cc13f79850235a866aa') in 0.0237043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms4.prefab
+  artifactKey: Guid(5f5030d9eb5a52c4f8af85c27c711a84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms4.prefab using Guid(5f5030d9eb5a52c4f8af85c27c711a84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '540e1a1b45c8df05f2e90be177cbdb71') in 0.0592551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_00_character_01f_01.prefab
+  artifactKey: Guid(b737903a0cefa1e4aa4c22e91c6ec5dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_00_character_01f_01.prefab using Guid(b737903a0cefa1e4aa4c22e91c6ec5dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '702852683c16e13b62040dd324cd19a9') in 0.0670043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 680
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00f_01_01bw.mat
+  artifactKey: Guid(511f5b8ada1244648a2ee2362f795017) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00f_01_01bw.mat using Guid(511f5b8ada1244648a2ee2362f795017) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93a6b7efaf734b79a4a675b529595edb') in 0.0296742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_csl_pants_00f.fbx
+  artifactKey: Guid(7dd8cb0aa10e1f94ea599a72df9a0bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_csl_pants_00f.fbx using Guid(7dd8cb0aa10e1f94ea599a72df9a0bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b72dede8a7a73ea37a8df957c64fa733') in 0.0244167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_02_01.mat
+  artifactKey: Guid(511b501b0736af34f89c1e524063d34e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_face_01f_02_01.mat using Guid(511b501b0736af34f89c1e524063d34e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f3c7c8e5d2553b41f6d13345a23f9bd') in 0.0674867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00m_01_01.mat
+  artifactKey: Guid(77ac863bd25dba04e930b77353722e00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_pants_00m_01_01.mat using Guid(77ac863bd25dba04e930b77353722e00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3caba908cb8d1dcb7c6f6a54a793f5c5') in 0.0241456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms3.prefab
+  artifactKey: Guid(708a859b870fb884e8835baa5bb8f5f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_arms3.prefab using Guid(708a859b870fb884e8835baa5bb8f5f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06218e0790692c6525162bc9249abd02') in 0.04272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_02_c.tif
+  artifactKey: Guid(63fc59bb28f4b3a438cc5e4bcd55b1a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_csl_tshirt_00f_01_02_c.tif using Guid(63fc59bb28f4b3a438cc5e4bcd55b1a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '013f9fe6f98231fcabe2706ec0e7de74') in 0.024807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms5.fbx
+  artifactKey: Guid(01493adb8bd274a4e9dcac3bfe3187b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_arms5.fbx using Guid(01493adb8bd274a4e9dcac3bfe3187b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '300db8266467e4e9a91426ab0b8efced') in 0.0331793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00m_01_02.mat
+  artifactKey: Guid(b3f2a96b505dbdc43b17343151b7765f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_tshirt_00m_01_02.mat using Guid(b3f2a96b505dbdc43b17343151b7765f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd35034d5397fddd493c30054b0f7afbb') in 0.0224135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_haircut_d_01.fbx
+  artifactKey: Guid(1c331bab91255334980c78217115db75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_haircut_d_01.fbx using Guid(1c331bab91255334980c78217115db75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1520ac43cf8f75577573538fcee494cc') in 0.0255587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hmn_face_01m_02_01_msk.tif
+  artifactKey: Guid(38764dfbc0be78347ba0f9ad257f9346) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hmn_face_01m_02_01_msk.tif using Guid(38764dfbc0be78347ba0f9ad257f9346) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d59af5123b0a05ab46e2a441ed1c62b') in 0.0366355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hair_01_m.tif
+  artifactKey: Guid(17304a7bef9b667498fdd79598c6507a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hair_01_m.tif using Guid(17304a7bef9b667498fdd79598c6507a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '785a52c322048d1c87ab36e6c19ddc64') in 0.0242668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_03.mat
+  artifactKey: Guid(69aa694c52e10ee428863858622bd638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_03.mat using Guid(69aa694c52e10ee428863858622bd638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60fd29a721d808eba58de7e6fe009bb8') in 0.0390553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_tshirt_00m_01_02.prefab
+  artifactKey: Guid(c816555d3af23c94ba857662b4e0f1bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_tshirt_00m_01_02.prefab using Guid(c816555d3af23c94ba857662b4e0f1bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f49833b7c5184d437e0e289e10a462bb') in 0.0294901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat
+  artifactKey: Guid(449c892dcfb7f3a43a50b2a52522498e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_hmn_body_01m_01_01.mat using Guid(449c892dcfb7f3a43a50b2a52522498e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cb3053777500013b13a69a9d6fdc420') in 0.0374692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_tshirt_00f_01_01.prefab
+  artifactKey: Guid(61dfc64d2d9326c44bd5ed01e224b1a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_tshirt_00f_01_01.prefab using Guid(61dfc64d2d9326c44bd5ed01e224b1a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0eef06d43decec3c7cde7fbe8b5b0776') in 0.0369125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody4.prefab
+  artifactKey: Guid(1f931ecdaa400274fa0fe1c7efb1084a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_lowerbody4.prefab using Guid(1f931ecdaa400274fa0fe1c7efb1084a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5862d3fd28f150c1d48e9d8d810563a1') in 0.0373442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_torso1.fbx
+  artifactKey: Guid(f158f80d476896043aae58550576d463) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_torso1.fbx using Guid(f158f80d476896043aae58550576d463) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '028eec82e4445d4d51d58c859d6aeb73') in 0.0273763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_haircut_c_03.prefab
+  artifactKey: Guid(3584de8c08e4ca54aa287b14bcb0cb5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_haircut_c_03.prefab using Guid(3584de8c08e4ca54aa287b14bcb0cb5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7006b20728fa9f8344235479d8cb0b52') in 0.0311142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 275
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_upperbody3.prefab
+  artifactKey: Guid(4c0a8e2da599bf14090520aae0f40480) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01f_upperbody3.prefab using Guid(4c0a8e2da599bf14090520aae0f40480) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dbbeacd8bb03ce980c593860024da7a') in 0.0397206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head2.prefab
+  artifactKey: Guid(e1fd861de0576ea4b853e2ec1b55cf1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_head2.prefab using Guid(e1fd861de0576ea4b853e2ec1b55cf1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac68f40be045ffe6726f081cf14617a0') in 0.0357696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_shirtopenrolled_00f_01_01.prefab
+  artifactKey: Guid(bac8c06b1f23fda4595edd1a23c1fc65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_shirtopenrolled_00f_01_01.prefab using Guid(bac8c06b1f23fda4595edd1a23c1fc65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce9470d62551c8f2e189dea8059bab1c') in 0.0343287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_hairfacial_b_01.fbx
+  artifactKey: Guid(8de24695ed5d02f4ba76beecdbae77e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_hairfacial_b_01.fbx using Guid(8de24695ed5d02f4ba76beecdbae77e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c70681fe5c406a14d39dfd3a0a23aeb4') in 0.0257306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_shirtopenrolled_00m_01_02bw.prefab
+  artifactKey: Guid(1e08b55909493934282316169118115f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_shirtopenrolled_00m_01_02bw.prefab using Guid(1e08b55909493934282316169118115f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5c1033d9d3b39f44b1307d50abdb9b') in 0.042615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shoe_01_00_02.mat
+  artifactKey: Guid(3d3e585e339efb3498e1d3f8c654367a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_csl_shoe_01_00_02.mat using Guid(3d3e585e339efb3498e1d3f8c654367a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dc4ff8676647192ab91a48cf91213f8') in 0.0182288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_csl_pants_00m_01_01_m.tif
+  artifactKey: Guid(15b7b4ed423e06547b6e02d940c92aa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_csl_pants_00m_01_01_m.tif using Guid(15b7b4ed423e06547b6e02d940c92aa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '592caa3a54e35bddfa2c498384092a1a') in 0.0281611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_06.mat
+  artifactKey: Guid(cc3a552e22acdf543afae8eabd83dc6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/MaterialsUPR/mtl_npc_hair_06.mat using Guid(cc3a552e22acdf543afae8eabd83dc6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3bd69618ea09daf02bf4032a2ca0106') in 0.0285619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_csl_tshirt_00f.fbx
+  artifactKey: Guid(ab356a3ff7271e645b168f028442b1a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_csl_tshirt_00f.fbx using Guid(ab356a3ff7271e645b168f028442b1a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab54d2102b8aa89a64ade89f27b58da') in 0.0302875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_csl_shoe_01_00_01.prefab
+  artifactKey: Guid(408eb24e06bf53e428212ae56be4d250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_csl_shoe_01_00_01.prefab using Guid(408eb24e06bf53e428212ae56be4d250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78a17e4d0774a79bab27475461dece9e') in 0.0322963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 275
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00f_sleeves.prefab
+  artifactKey: Guid(a05ff32f21ba11b4297aca2daca5ebc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_csl_shirtopenrolled_00f_sleeves.prefab using Guid(a05ff32f21ba11b4297aca2daca5ebc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfa361dfb384636be97a712908cd9848') in 0.0345188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00f_01_02.mat
+  artifactKey: Guid(a1bdd42f5785fc044a7f9f973598cd1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00f_01_02.mat using Guid(a1bdd42f5785fc044a7f9f973598cd1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dd567086a74bc494da7881e360eda76') in 0.0160158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/npc_csl_shoe_02.fbx
+  artifactKey: Guid(75128e7f08623594fa3a81d55434b088) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/npc_csl_shoe_02.fbx using Guid(75128e7f08623594fa3a81d55434b088) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f4c6e759bccff7ac8fdc67fa41cfe92') in 0.0419991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/npc_hairfacial_b_01.prefab
+  artifactKey: Guid(06318a5febaf3344db3b500429920304) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/npc_hairfacial_b_01.prefab using Guid(06318a5febaf3344db3b500429920304) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea0bb797112d1c2dfe93f1b8b75d92f') in 0.0257545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 275
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00f_01_01bw.mat
+  artifactKey: Guid(95f8357e406b378418e468e68ee78049) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_shirtopenrolled_00f_01_01bw.mat using Guid(95f8357e406b378418e468e68ee78049) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ba28201579bf08df8b15b3f6f3fb23a') in 0.0307937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Prefab Groups/Wines.prefab
+  artifactKey: Guid(7c8e838191234fa4f93237bfcb4bc0a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Prefab Groups/Wines.prefab using Guid(7c8e838191234fa4f93237bfcb4bc0a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2fc82b2be01f0d551e39109c7f9b345') in 0.1666527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Picture Frame 5.fbx
+  artifactKey: Guid(cc52ce03b5f995845bb3b0158d3e1d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Picture Frame 5.fbx using Guid(cc52ce03b5f995845bb3b0158d3e1d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd74b919235bb20af44554f77dc50ac9c') in 0.0406691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ONEmissiveOnly/LED_Light_7.prefab
+  artifactKey: Guid(86cb0c339537b3e4286657cfc22c5bd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ONEmissiveOnly/LED_Light_7.prefab using Guid(86cb0c339537b3e4286657cfc22c5bd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a00895f6dc4ff710a3e7832bf174e83') in 0.0419002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/OFF/LED_Light_6.prefab
+  artifactKey: Guid(f6e09442976e300479c2c14b6758b721) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/OFF/LED_Light_6.prefab using Guid(f6e09442976e300479c2c14b6758b721) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a4de2fee43e24f4e5a8ac5debf6935e') in 0.0419194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Prefab Groups/Single Person Chairs.prefab
+  artifactKey: Guid(1317ea00ccd19a244b4456a0406d5729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Prefab Groups/Single Person Chairs.prefab using Guid(1317ea00ccd19a244b4456a0406d5729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0873cb4bd232fb6ef46cf6e04e66057') in 0.1034218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_arms5.fbx
+  artifactKey: Guid(7dcdd99fa4b291c43b2fb6a111421850) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01m_arms5.fbx using Guid(7dcdd99fa4b291c43b2fb6a111421850) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4e0e37bb1753bcc74e1a88e4faf18f5') in 0.0291896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Documentation.pdf
+  artifactKey: Guid(e5303e040b2e46446b6ff32b5872ba38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Documentation.pdf using Guid(e5303e040b2e46446b6ff32b5872ba38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be92817eb85cb72498e31f1388eef649') in 0.009153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Picture Frames/Picture Frame 2.prefab
+  artifactKey: Guid(551881a4c936ce04faeeb80891604631) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Picture Frames/Picture Frame 2.prefab using Guid(551881a4c936ce04faeeb80891604631) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dbd9488a561190d711057100c53e94f') in 0.0401404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Hang on Wall/Hook.prefab
+  artifactKey: Guid(61add1a52c282b841bf9d1b1d6689f79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Hang on Wall/Hook.prefab using Guid(61add1a52c282b841bf9d1b1d6689f79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02b1b08f027bbf3af6787620525adbdd') in 0.0378453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Picture Frames/Picture Frame 3.prefab
+  artifactKey: Guid(dd44daf5ad388484d85cff58ba4dc4f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Picture Frames/Picture Frame 3.prefab using Guid(dd44daf5ad388484d85cff58ba4dc4f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91d17c1bb73c6a84de7667232e34721b') in 0.0268566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/OFF/LED_Light_2.prefab
+  artifactKey: Guid(51457ab32c25d944ebb35248dbc4cfe5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/OFF/LED_Light_2.prefab using Guid(51457ab32c25d944ebb35248dbc4cfe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50278fa7ed63882d4022fa9a13f3e822') in 0.0469745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.053.mat
+  artifactKey: Guid(bf19887616d5f2e4cbcbd78cff0afbf4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.053.mat using Guid(bf19887616d5f2e4cbcbd78cff0afbf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bc344ab00b0ec406401e279ef6bef1a') in 0.0145155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Scene Props/Scripts/FenceData.cs
+  artifactKey: Guid(17122df5d886488282946ce3a872762c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Scene Props/Scripts/FenceData.cs using Guid(17122df5d886488282946ce3a872762c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67024177b77902ab741c50be007b0524') in 0.0145282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.060.mat
+  artifactKey: Guid(9c5d6e447973d1f4a80d1de25dc02caf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.060.mat using Guid(9c5d6e447973d1f4a80d1de25dc02caf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16d50cf43c3b08815316dddd996a8a7c') in 0.0300374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Hanging Scroll 1.fbx
+  artifactKey: Guid(bfaa41f4ac1530643bf8dc6952634aed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Hanging Scroll 1.fbx using Guid(bfaa41f4ac1530643bf8dc6952634aed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70c3aa260fb0584894d6958c418be6ad') in 0.019601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Materials/LedLightGlass.mat
+  artifactKey: Guid(afceb5457305a864bb578e1fc77ca940) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Materials/LedLightGlass.mat using Guid(afceb5457305a864bb578e1fc77ca940) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f8a7c3282d671a1e58df38a7ea90c5f') in 0.0391365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hmn_face_01m_03_01_c.tif
+  artifactKey: Guid(58f79e8f349468440842f2954bb4e644) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hmn_face_01m_03_01_c.tif using Guid(58f79e8f349468440842f2954bb4e644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30d7b4c506e5d7fd83380cd29dc8b54b') in 0.0268755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ON/LED_Light_5.prefab
+  artifactKey: Guid(7ae4a5c03cc9dee4cb8e27fb853d5b4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ON/LED_Light_5.prefab using Guid(7ae4a5c03cc9dee4cb8e27fb853d5b4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '541fa190303fc9c1aa83960f21876f3c') in 0.0342039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Carpet.fbx
+  artifactKey: Guid(7b9707f884e419244a4079438dafba4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Carpet.fbx using Guid(7b9707f884e419244a4079438dafba4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e026b686cc14da8fc34c9e0b83c962c4') in 0.0220437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Chicken Leg Meal.prefab
+  artifactKey: Guid(fa4e748cee8a9f94c91081adc99811f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Chicken Leg Meal.prefab using Guid(fa4e748cee8a9f94c91081adc99811f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e95b91e7b52453ab16d7713b7d6355f') in 0.0517499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Fence Pole.fbx
+  artifactKey: Guid(30efde297e699f940aab848eb39d73e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Fence Pole.fbx using Guid(30efde297e699f940aab848eb39d73e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd43bed4cbdf09946a28670773fe01539') in 0.0287297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Large Barrel.fbx
+  artifactKey: Guid(58e7e88be524a8645bca58d0595a9c91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Large Barrel.fbx using Guid(58e7e88be524a8645bca58d0595a9c91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b259ad95e91737ac15b7feece27dd125') in 0.0257321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Placemat.prefab
+  artifactKey: Guid(45a23db766d42314c9283b087cc0f374) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Placemat.prefab using Guid(45a23db766d42314c9283b087cc0f374) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '527cec6cacc8572397a0264e6e03aa42') in 0.036033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Light Sources/Candlestick 2.prefab
+  artifactKey: Guid(03222cd9e6bea3d49b5e3d58e5fc2a2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Light Sources/Candlestick 2.prefab using Guid(03222cd9e6bea3d49b5e3d58e5fc2a2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a900a59e1bdcfac2be057ed018857043') in 0.0450281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Candlestick 1.fbx
+  artifactKey: Guid(c7b923fb049b8ca4b882c6dce3dbbbe3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Candlestick 1.fbx using Guid(c7b923fb049b8ca4b882c6dce3dbbbe3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dd99a39c16b9ffe7f82d37ce23c1cbb') in 0.0313734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ON/LED_Light_1.prefab
+  artifactKey: Guid(d55640e7431828d40b22c3f009833381) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Prefabs/ON/LED_Light_1.prefab using Guid(d55640e7431828d40b22c3f009833381) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b174aeffc17e32afd9e507ef1f03e7d2') in 0.0413502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Materials/LedLightYellow.mat
+  artifactKey: Guid(34c7488ca1960fa49bfb961abaa609de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Materials/LedLightYellow.mat using Guid(34c7488ca1960fa49bfb961abaa609de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '575b3c9a562e148f95184e045fe15165') in 0.018167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.048.mat
+  artifactKey: Guid(eb1b8d3c4f06e9444892c06e6df09f1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Materials/Material.048.mat using Guid(eb1b8d3c4f06e9444892c06e6df09f1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acef4aca4896ddffd2a542220aaaa25b') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Tables & Chairs/Roundtable.prefab
+  artifactKey: Guid(95356d5fb12bf2f4888447f8374f77ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Tables & Chairs/Roundtable.prefab using Guid(95356d5fb12bf2f4888447f8374f77ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8bb053e7048585826c5382e8a98b760') in 0.022948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Pipelines/Universal Pipeline.unitypackage
+  artifactKey: Guid(96435cbd74d626942a48e9e27364fe92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Pipelines/Universal Pipeline.unitypackage using Guid(96435cbd74d626942a48e9e27364fe92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805f30d8272e39070cb23719aef0f83d') in 0.0153072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(d9ae90fe37c23da479918dd36dd7ca67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/ProBuilder Data/Default Color Palette.asset using Guid(d9ae90fe37c23da479918dd36dd7ca67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc321acf8ec53b2045b546c780c68987') in 0.0204996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Tables & Chairs/Bench.prefab
+  artifactKey: Guid(9db157cdf09cdaf4191d03ad49e269e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Tables & Chairs/Bench.prefab using Guid(9db157cdf09cdaf4191d03ad49e269e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ceb2089291dc62a7685847ca778e0640') in 0.0437966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/readme.rtf
+  artifactKey: Guid(7552cddd50ba8614a8e349a13a833c19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/readme.rtf using Guid(7552cddd50ba8614a8e349a13a833c19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dd8a696423d435299f39118bb842a91') in 0.0155701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Wine Bottles & Cups/Cup.prefab
+  artifactKey: Guid(5d38da2e8af97684984ec8d093c3b378) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Wine Bottles & Cups/Cup.prefab using Guid(5d38da2e8af97684984ec8d093c3b378) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b574f6b8114eab173d5f40d26f469de8') in 0.0322925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Scene Props/BRP Post Process.prefab
+  artifactKey: Guid(ba73728ec352f8742b6e0e2e3c60287b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Scene Props/BRP Post Process.prefab using Guid(ba73728ec352f8742b6e0e2e3c60287b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25ebcb5700fa0f90a2511e7d08e4cbf6') in 0.0345502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/PolyKebap/LED Light Essentials Pack/Models/ledbase_corner.fbx
+  artifactKey: Guid(e3878d2aee83e704cae24eceff2675bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/PolyKebap/LED Light Essentials Pack/Models/ledbase_corner.fbx using Guid(e3878d2aee83e704cae24eceff2675bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec29f73d714e3babaada50b89324dcd3') in 0.0188618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody2.prefab
+  artifactKey: Guid(b9e23b63807a0a246a1beefbb5b22818) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Prefabs/Prefabs_Parts/npc_hmn_01m_upperbody2.prefab using Guid(b9e23b63807a0a246a1beefbb5b22818) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '095f9994b466b7a3ca1e2ec7519837e2') in 0.0318494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_o.tif
+  artifactKey: Guid(444656238b316674c9ac36691cf77785) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Textures/npc_hmn_body_01m_01_01_o.tif using Guid(444656238b316674c9ac36691cf77785) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d2ad16ebf46f8eb5323a598ba82314f') in 0.0204862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh
+  artifactKey: Guid(4d14890f84260ef4ca896d723b70212b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh using Guid(4d14890f84260ef4ca896d723b70212b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16b2be64b365f9f5c95b6b8c74b99205') in 0.0085191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Hang on Wall
+  artifactKey: Guid(1430de21f59f60340b748c9c06185704) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Hang on Wall using Guid(1430de21f59f60340b748c9c06185704) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e35b01d21ddaceb7fd11e1a8c917b9d7') in 0.0069667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_upperbody6.fbx
+  artifactKey: Guid(aa59af2541cef3949b625cba1c72d966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Mesh/Mesh_Parts/npc_hmn_01f_upperbody6.fbx using Guid(aa59af2541cef3949b625cba1c72d966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45071d873efeed327fa0989f3fd4236a') in 0.0264534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_01bw.mat
+  artifactKey: Guid(9f71e12841d72c244a9cc4e285196bba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/npc_casual_set_00/Materials/mtl_npc_csl_pants_00m_01_01bw.mat using Guid(9f71e12841d72c244a9cc4e285196bba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84b87686a2d24a394718ea2af2e6808c') in 0.0340414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Models/Room.fbx
+  artifactKey: Guid(1a8a9b79080f1af4a9fff8b5ce1163f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Models/Room.fbx using Guid(1a8a9b79080f1af4a9fff8b5ce1163f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '494d297d8740ab55ca30441c28c51857') in 0.0514546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/Fries and Seagull/Bar 02/Prefabs/Wine Bottles & Cups/Wine Bottle 5.prefab
+  artifactKey: Guid(4d882a8778301c646b19e1c183e12e51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/models/Fries and Seagull/Bar 02/Prefabs/Wine Bottles & Cups/Wine Bottle 5.prefab using Guid(4d882a8778301c646b19e1c183e12e51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '329a1fc4d2aca20be29789eabee9ce84') in 0.0230018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.700 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7089 unused Assets / (6.3 MB). Loaded Objects now: 7861.
+Memory consumption went from 159.1 MB to 152.8 MB.
+Total: 11.169300 ms (FindLiveObjects: 0.954800 ms CreateObjectMapping: 0.716300 ms MarkObjects: 5.945600 ms  DeleteObjects: 3.550600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.679 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1394ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7088 unused Assets / (6.1 MB). Loaded Objects now: 7864.
+Memory consumption went from 159.1 MB to 153.0 MB.
+Total: 10.962200 ms (FindLiveObjects: 0.821400 ms CreateObjectMapping: 0.788600 ms MarkObjects: 6.046100 ms  DeleteObjects: 3.304400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

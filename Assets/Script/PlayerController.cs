@@ -25,6 +25,9 @@ public class PlayerController : MonoBehaviour
     [Header("animation")]
     private Animator anim;
 
+    [Header("Audio")]
+    public AudioSource footstep;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -39,6 +42,18 @@ public class PlayerController : MonoBehaviour
         bool moving = moveInput.magnitude > 0.2f;
         anim.SetBool("isWalking", moving);
         anim.SetBool("isJumping", !isGrounded);
+
+        //plays footstep audio
+        if (moving){
+            if (!footstep.isPlaying)
+            {
+                footstep.Play();
+            }
+        }
+        else
+        {
+            footstep.Stop();
+        }
         
         //Check if the player pressed F here
         if (targetNPC != null && Keyboard.current.fKey.wasPressedThisFrame) {
